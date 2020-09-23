@@ -61,4 +61,4 @@ mean_sd_combined_dataset <- mean_std_subset %>%
     summarise_all(funs(mean))
 
 #Export the txt file.
-write.table(mean_sd_combined_dataset,"./mean_sd_combined_dataset.txt", row.names = FALSE)
+write.table(mean_sd_combined_dataset,"./data/mean_sd_combined_dataset.txt", row.names = FALSE)
